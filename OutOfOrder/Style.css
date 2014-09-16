@@ -1,0 +1,59 @@
+/* Coustom Content
+------------------------------------------------------------------------*/
+@font-face{
+   font-family:'LeagueGothic';
+   src: url(../Fonts/LeagueGothic-Regular.otf) format('OpenType');
+        
+}
+/* Element Headers
+------------------------------------------------------------------------*/
+body{
+ font-family: LeagueGothic;
+ margin:0px;
+}
+
+
+/* Coustom Div - ID
+------------------------------------------------------------------------*/
+#mainContent {
+    background-image:url(TokyoNIghtBlured.jpg); 
+    background-repeat:no-repeat;
+    background-size:cover; 
+    width:100%;
+    height:100%;
+    margin:0px;
+
+    
+   
+}
+
+#mainContent h1{
+    color:#fff;
+    float:left;
+    font-size:72px; 
+    margin-left:15px; 
+}
+
+#middleBand {
+    width:100%;
+    height:40%;
+    background-image:url(BlackDenimBack.jpg);
+    margin:0px;
+    float:left;
+    
+}
+
+#header02 {
+    color:#fff;
+    font-size:48px; 
+}
+
+#header03 {
+    color:#fff;
+    font-size:24px;
+    font-family:Helvetica; 
+}
+
+#span1 {
+    font-size:38px; 
+}
