@@ -1,2 +1,0 @@
-InfiniteStrikeLtd.github.io
-===========================
