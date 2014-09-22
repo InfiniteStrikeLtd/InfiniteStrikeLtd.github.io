@@ -26,36 +26,8 @@ ol , ul{
     list-style:none;
     display:inline-block;
 }
-
-
 /* ID Content
 ----------------------------------------------------------------------------------------------------------------------------------*/
-
-
-#IE_Waring{
-            background:#fff;
-            position:fixed;
-            bottom:10px;
-            right:75%;
-            width:300px;
-            height:75px;
-            border-radius:2px;
-            box-shadow:#000 0px 0px 4px;
-            font-family:Helvetica;
-            color:#000;
-        }
-        
-        #IE_Close{
-            width:10px;
-            height:10px;
-            margin-top:5px;
-            margin-left:5px;
-            background:url(Img/closebutton.png);
-            background-size:contain;
-            
-        }
-
-
 #Header_Logo_A {
     font-size:68px; 
     color:#fff;

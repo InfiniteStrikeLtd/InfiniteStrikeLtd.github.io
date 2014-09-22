@@ -1,0 +1,39 @@
+<head>
+    
+    <script src = "JavaScript/jquery.js"></script>
+    <script src = "JavaScript/main.js"></script>
+    
+    <style>
+        #IE_Waring{
+            position:fixed;
+            bottom:10px;
+            left:75%;
+            width:250px;
+            height:50px;
+            border-radius:2px;
+            box-shadow:#000 0px 0px 4px; 
+        }
+        
+        #IE_Close{
+            width:10px;
+            height:10px;
+            margin-top:0px;
+            margin-right:0px;
+            background:url(Img/closebutton.png);
+            background-size:contain;
+            
+        }
+        
+        
+    </style>
+     
+</head>
+<body>
+    
+    
+    <div id = "IE_Waring">
+        <div id = "IE_Close"></div>
+        <p>Test box</p>
+    </div>
+    
+</body>
