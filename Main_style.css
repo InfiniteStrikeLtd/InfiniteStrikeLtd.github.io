@@ -16,7 +16,7 @@ body{
     background-size:cover;
     background-attachment:fixed;
     color:#fff;
-    font-family:LeagueGothic; 
+    font-family:LeagueGothic,Helvetica; 
 }
 a{
     text-decoration:none;
@@ -31,12 +31,11 @@ ol , ul{
 /* ID Content
 ----------------------------------------------------------------------------------------------------------------------------------*/
 
-
-#IE_Waring{
+#IE_Waring_alt{
             background:#fff;
             position:fixed;
             bottom:10px;
-            right:75%;
+            left:75%;
             width:300px;
             height:75px;
             border-radius:2px;
@@ -45,7 +44,33 @@ ol , ul{
             color:#000;
         }
         
+        #IE_Close_alt{
+            width:10px;
+            height:10px;
+            margin-top:5px;
+            margin-left:5px;
+            background:url(Img/closebutton.png);
+            background-size:contain;
+            
+        }
+
+#IE_Waring{
+            background:#fff;
+            position:fixed;
+            bottom:10px;
+            right:75%;
+            min-width:300px;
+            width:auto;
+            min-height:75px;
+            height:auto;
+            border-radius:2px;
+            box-shadow:#000 0px 0px 4px;
+            font-family:Helvetica;
+            color:#000;
+        }
+        
         #IE_Close{
+            right:90%;
             width:10px;
             height:10px;
             margin-top:5px;
