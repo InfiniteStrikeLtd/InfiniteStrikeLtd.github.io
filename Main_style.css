@@ -134,3 +134,11 @@ ol , ul{
 
 
 
+
+#footer {
+    font-family:Helvetica;
+    color:white;
+    font-size:12px;
+    background:rgba(0,0,0,0.5); 
+    height:40px;
+}

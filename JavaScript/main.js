@@ -6,11 +6,9 @@ $(document).ready(function(){
     closePopup();  
    })
    
-     
-       
-    
-    var closePopup = function(){
+     var closePopup = function(){
         $('#IE_Waring').remove(); 
-   }
-   
+     }
 });
+
+
