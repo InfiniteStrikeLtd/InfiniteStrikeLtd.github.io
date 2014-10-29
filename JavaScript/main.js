@@ -9,6 +9,12 @@ $(document).ready(function(){
      var closePopup = function(){
         $('#IE_Waring').remove(); 
      }
+     
+     
+     var submitConfirm = function(){
+       alert("Message was sucesfully sent!");
+     }
+     
 });
 
 
