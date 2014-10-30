@@ -6,6 +6,17 @@ $(document).ready(function(){
     closePopup();  
    })
    
+    // this is the IE_Warning fade
+    $('#IE_Waring').mouseenter(function(){
+        $(this).fadeTo('fast' , 1);
+    });
+   
+     $('#IE_Waring').mouseleave(function(){
+        $(this).fadeTo('fast' , 0.7);
+    });
+    // end ie warning fade
+    
+    
      var closePopup = function(){
         $('#IE_Waring').remove(); 
      }

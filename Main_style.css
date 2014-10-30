@@ -67,6 +67,8 @@ ol , ul{
             box-shadow:#000 0px 0px 4px;
             font-family:Helvetica;
             color:#000;
+            opacity:0.7; 
+                
         }
         
         #IE_Close{
@@ -77,6 +79,7 @@ ol , ul{
             margin-left:5px;
             background:url(Img/closebutton.png);
             background-size:contain;
+             
             
         }
 
