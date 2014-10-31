@@ -71,9 +71,13 @@ ol , ul{
                 
         }
 #IE_Waring p{
-  margin-top:-25px;
+  margin-top:10px;
   margin-left:10px; 
 }
+
+#IE_Warning td{
+    
+} 
 
 
         
