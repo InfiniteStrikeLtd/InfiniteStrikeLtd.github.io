@@ -14,7 +14,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  .bg-wrapper { background-color: #ffffff; }
  h2 { font-family: 'Alice', sans-serif; font-size: 26px; font-weight: normal; color: #484848; padding: .3em 0; }
  div.paragraph, div.paragraph { padding: .5em 0; }
- p, div.paragraph { padding: .5em 0; }
+/* p, div.paragraph { padding: .5em 0; } */
  hr.styled-hr { background-color: #d0d0d0; }
  #wrapper blockquote { border-left: 5px solid #d0d0d0; margin-left: 20px; padding-left: 20px; }
  #header { text-align: center; padding-top: 52px; padding-bottom: 25px; }

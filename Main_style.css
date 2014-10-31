@@ -63,13 +63,19 @@ ol , ul{
             width:auto;
             min-height:75px;
             height:auto;
-            border-radius:2px;
-            box-shadow:#000 0px 0px 4px;
+            border-radius:3px;
+            box-shadow:#000 0px 0px 7px;
             font-family:Helvetica;
             color:#000;
             opacity:0.7; 
                 
         }
+#IE_Waring p{
+  margin-top:15px;
+  margin-left:10px; 
+}
+
+
         
         #IE_Close{
             right:90%;
@@ -168,7 +174,7 @@ ol , ul{
     width:500px;
     height:5px;
     text-align: center;
-    font-
+    
 }
 
 .new_Footer p , a {
@@ -179,3 +185,7 @@ ol , ul{
 }
 /* Footer Content
 ----------------------------------------------------------------------------------------------------------------------------------*/
+#debug h2 {
+    color:#fff;
+    font-family:LeagueGothic; 
+}
