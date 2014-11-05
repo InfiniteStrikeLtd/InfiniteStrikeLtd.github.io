@@ -97,14 +97,14 @@ ol , ul{
 #Header_Logo_A {
     font-size:68px; 
     color:#fff;
-    font-family:'LeagueGothic';
+    font-family:LeagueGothic,Helvetica;
     
 }
 
 #Header_Logo_B {
     font-size:38px;
     color:#fff;
-    font-family:'LeagueGothic';
+    font-family:LeagueGothic,Helvetica;
     
 }
 #Nav_Menu {
@@ -116,7 +116,7 @@ ol , ul{
 }
 #Nav_Menu a{
     margin-right:20px; 
-    font-family:LeagueGothic;
+    font-family:LeagueGothic,Helvetica;
     font-size:38px; 
 }
 #Nav_Menu a:hover{
