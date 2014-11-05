@@ -27,7 +27,9 @@ $(document).ready(function(){
      }
      
      
-     
+     var time = Date();
+    
+    $("#date_holder").prepend("Last Updated - " + time);
      
      
      
