@@ -213,7 +213,7 @@ ol , ul{
 }
 
 #person_container {
-    color:black;
+    box-shadow:white 0px 0px 7px;color:black;
     width:250px;
     height:300px;
     opacity:100;
@@ -222,8 +222,10 @@ ol , ul{
     margin:30px; 
     border-radius:3px;
     border:1px solid black; 
-    box-shadow:white 0px 0px 7px;
+    
 }
+
+
 
 #header_text {
     font-size:21px;
