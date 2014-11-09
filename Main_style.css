@@ -6,6 +6,12 @@
         
 }
 
+@font-face{
+   font-family:'FancyFont';
+   src: url(Fonts/FancyFont.ttf) format('TrueType');
+        
+}
+
 
 /* Element Content
 ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -192,4 +198,46 @@ ol , ul{
 #debug h2 {
     color:#fff;
     font-family:LeagueGothic; 
+}
+
+#Content_alt {
+      height:auto;
+    border-radius:6px;
+    min-height:400px; 
+    margin:0px;
+   
+    color:#000;
+    text-align: left;
+    
+    font-family:Helvetica; 
+}
+
+#person_container {
+    color:black;
+    width:250px;
+    height:300px;
+    opacity:100;
+    background:#fff;
+    margin-top:20px;
+    margin:30px; 
+    border-radius:3px;
+    border:1px solid black; 
+    box-shadow:white 0px 0px 7px;
+}
+
+#header_text {
+    font-size:21px;
+    font-weight:bold;
+}
+
+#Staff_header {
+    font-family:LeagueGothic;
+    color:white;
+    font-size:72px;
+    text-shadow:rgba(0,0,0,1) 0px 0px 7px;
+    background:rgba(255,255,255,0.2);
+}
+
+#descript_text {
+    font-size:10px; 
 }

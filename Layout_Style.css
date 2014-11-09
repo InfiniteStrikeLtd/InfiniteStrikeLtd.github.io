@@ -54,3 +54,40 @@
 }
 
 
+
+#div_container {
+    display:grid;
+    width:auto;
+    height:auto;
+    margin:10px;
+    margin-top:20px;
+    opacity:1; 
+    
+}
+
+#profilePic {
+    color:white;
+    border-radius:50%;
+    width:84px;
+    height:84px;
+    background:#1f2c4c;
+    margin-top:10px;
+   
+}
+
+#profilePic img{
+ width:84px;
+ height:84px;
+ border-radius:50%;
+ border:1px solid black;
+
+}
+
+#profilePic p{
+    margin-top:20px;
+    margin-left:15px;
+    float:left;
+    font-size:24px;
+    font-weight:bold; 
+    
+}
