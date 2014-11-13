@@ -5,6 +5,8 @@ $(document).ready(function () {
         closePopup();
     })
 
+    
+    
     // this is the IE_Warning fade
     $('#IE_Waring').mouseenter(function () {
         $(this).fadeTo('fast', 1);
@@ -15,6 +17,10 @@ $(document).ready(function () {
     });
     // end ie warning fade
 
+    
+    
+    
+    $('.toggleableSelection').toggle();
 
     var closePopup = function () {
         $('#IE_Waring').remove();
@@ -25,7 +31,17 @@ $(document).ready(function () {
         alert("Message was sucesfully sent!");
     }
 
+    // ------------------------------------------------
+    
+   
 
+    $('#toggleButton').click( function() {
+        $('.toggleableSelection').slideToggle();
+    });
+    
+    
+    //------------------------------------------
+    
     var time = Date();
 
     $("#date_holder").prepend("Last Updated - " + time);

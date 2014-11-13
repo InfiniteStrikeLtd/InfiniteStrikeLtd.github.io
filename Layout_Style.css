@@ -44,9 +44,11 @@
     margin-top:50px; 
 }
 #Content_Divider {
+    margin-top:10px;
     width:98%;
     height:1px;
     background:#a1a1a1;
+    box-shadow:rgba(0,0,0,0.5) 0px 0px 1px;
 }
 
 #debug a {
@@ -90,4 +92,19 @@
     font-size:24px;
     font-weight:bold; 
     
+}
+
+#toggleButton {
+    color:white;
+    margin-top:-30px;
+    width:150px;
+    height:50px;
+    border:0px;
+    border-radius:25px; 
+    border:3px solid #3498db;
+    background:rgba(0,0,0,0);
+}
+
+#toggleButton:hover {
+   background:#3498db;
 }
