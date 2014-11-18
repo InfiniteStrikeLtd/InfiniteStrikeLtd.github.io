@@ -44,7 +44,7 @@ $(document).ready(function () {
     
     var time = Date();
 
-    $("#date_holder").prepend("Last Updated - " + time);
+    $("#date_holder").prepend("Last Updated - " + time + "\n" + "MD5:" + encrypt("Infinitestrikesucess" + encrypt(Date())));
 
     // Initial Comment : hey hackers try to breach my encryption methods 
     //
