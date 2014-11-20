@@ -8,7 +8,9 @@ $(document).ready(function () {
    
 
     
-    
+      $('.downloader').click(function(){
+        $(this).css("background" , "#3498db");
+    });
     
     
   function getInternetExplorerVersion(){
