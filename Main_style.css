@@ -99,6 +99,18 @@ ol , ul{
             
         }
 
+        #IE_WClose{
+            right:90%;
+            width:10px;
+            height:10px;
+            margin-top:5px;
+            margin-left:5px;
+            background:url(Img/closebutton.png);
+            background-size:contain;
+             
+            
+        }
+
 
 #Header_Logo_A {
     font-size:68px; 
@@ -332,3 +344,22 @@ ol , ul{
     height:50px;
 }
 
+
+
+
+#IE_Error {
+            text-align:center;
+            background:#fff;
+            position:fixed;
+            bottom:100px;
+            right:1%;
+            min-width:300px;
+            width:auto;
+            min-height:75px;
+            height:auto;
+            border-radius:3px;
+            box-shadow:#000 0px 0px 7px;
+            font-family:Helvetica;
+            color:#000;
+            opacity:0.7; 
+}

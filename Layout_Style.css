@@ -123,3 +123,52 @@
    background:#3498db;
    color:white;
 }
+
+
+
+/*----------------------------------------------------------*/
+
+
+::-webkit-scrollbar {  
+    width: 10px;  
+}  
+::-webkit-scrollbar-track {  
+    /*background-color: #2c3e50;*/
+    background-color:rgba(0,0,0,1); 
+    
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #2980b9;  
+    border-radius:6px; 
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #3498db;  
+}  
+
+
+#chrome {
+    width:250px;
+    height:60px;
+    font-family:Segoe UI;
+    font-weight:lighter;
+    font-size:32px;
+    border:1px solid rgba(0,0,0,0);
+}
+
+#chrome:hover{
+    border:1px solid #8a44ad;
+}
+
+
+#mozilla {
+    width:250px;
+    height:60px;
+    font-family:Segoe UI;
+    font-weight:lighter;
+    font-size:32px;
+     border:1px solid rgba(0,0,0,0);
+}
+
+#mozilla:hover{
+    border:1px solid #8a44ad;
+}

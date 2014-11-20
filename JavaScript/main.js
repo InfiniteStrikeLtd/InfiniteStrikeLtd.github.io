@@ -4,8 +4,38 @@ $(document).ready(function () {
     $('#IE_Close').click(function () {
         closePopup();
     })
+    
+   
 
     
+    
+    
+    
+  function getInternetExplorerVersion(){
+  var rv = -1;
+  if (navigator.appName == 'Microsoft Internet Explorer')
+  {
+    var ua = navigator.userAgent;
+    var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null)
+      rv = parseFloat( RegExp.$1 );
+  }
+  else if (navigator.appName == 'Netscape')
+  {
+    var ua = navigator.userAgent;
+    var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null)
+      rv = parseFloat( RegExp.$1 );
+  }
+  return rv;
+}
+
+if(getInternetExplorerVersion() !== -1){
+   window.location = "http://infinitestrike.github.io/unsupported.html";
+    
+}
+
+
     
     // this is the IE_Warning fade
     $('#IE_Waring').mouseenter(function () {
@@ -15,6 +45,10 @@ $(document).ready(function () {
     $('#IE_Waring').mouseleave(function () {
         $(this).fadeTo('fast', 0.7);
     });
+    
+    
+    
+   
     // end ie warning fade
 
     
@@ -25,6 +59,8 @@ $(document).ready(function () {
     var closePopup = function () {
         $('#IE_Waring').remove();
     }
+
+   
 
 
     var submitConfirm = function () {
@@ -84,4 +120,8 @@ function d(e){return h(o(unescape(encodeURIComponent(e))))}
 function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return d})();
 
 
+    
+    
+    
+    
 });
