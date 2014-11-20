@@ -31,7 +31,7 @@ $(document).ready(function () {
 }
 
 if(getInternetExplorerVersion() !== -1){
-   window.location = "http://infinitestrike.github.io/unsupported.html";
+   window.location = "http://infinitestrikeltd.github.io/unsupported.html";
     
 }
 
