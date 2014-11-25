@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 if(getInternetExplorerVersion() !== -1){
    window.location = "http://infinitestrikeltd.github.io/unsupported.html";
-    
+   
 }
 
 
@@ -77,6 +77,7 @@ if(getInternetExplorerVersion() !== -1){
 
     $('#toggleButton').click( function() {
         $('.toggleableSelection').slideToggle();
+         
     });
     
     
@@ -84,7 +85,7 @@ if(getInternetExplorerVersion() !== -1){
     
     var time = Date();
 
-    $("#date_holder").prepend("Last Updated - " + time + "\n" + "MD5:" + encrypt("Infinitestrikesucess" + encrypt(Date())));
+    $("#date_holder").prepend("Last Updated - " + time);
 
     // Initial Comment : hey hackers try to breach my encryption methods 
     //
@@ -123,8 +124,9 @@ function h(e){for(var t=0;t<e.length;t++)e[t]=c(e[t]);return e.join("")}
 function d(e){return h(o(unescape(encodeURIComponent(e))))}
 function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return d})();
 
-
+// sxperimental layout functions that can help in overall edits.
     
+ 
     
     
     
