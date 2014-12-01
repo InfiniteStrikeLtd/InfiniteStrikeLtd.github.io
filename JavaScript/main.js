@@ -135,7 +135,7 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
                     "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>"];       //2
                                                // So on and so forth
      
-    var setRandomness = 4;
+    var setRandomness = messages.length-1;
     var randomChoice = Math.floor(Math.random() * setRandomness) + 1
     //alert(randomChoice);
      
