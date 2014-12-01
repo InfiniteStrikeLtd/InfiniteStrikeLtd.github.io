@@ -324,7 +324,18 @@ ol , ul{
     border:3px solid orange;
     margin-top:-15px;
 }
-
+#JoltDownload{
+    width:100px;
+    height:30px;
+    border-radius:15px;
+    background:url("Img/Logos/jolt.png"); 
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:#2F7F6F; 
+    border:3px solid #CCFF00;
+    margin-top:-15px;
+}
 .downloadContainer{
     color:#000;
     width:350px;
