@@ -1,5 +1,25 @@
 // when the document (website) is ready run a unamed 
 $(document).ready(function () {
+    
+    
+    $(window).bind("resize", resizeWindow);
+		function resizeWindow(e){
+			var newWindowWidth = $(window).width();
+            // If width width is below 600px, switch to the mobile stylesheet
+			 if(newWindowWidth < 600){ 				
+                $("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/mobile.css"});
+                 closePopup();
+                } 			
+                // Else if width is above 600px, switch to the large stylesheet 
+                else if(newWindowWidth > 600){
+				$("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/style.css"});
+			    }else{
+                $("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/style.css"});
+                }
+            
+		}   
+    
+    
     //when you click on IE_Close (The x) do the below
     $('#IE_Close').click(function () {
         closePopup();
@@ -151,19 +171,7 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
  setNewIntro();
     
     
-$(window).bind("resize", resizeWindow);
-		function resizeWindow(e){
-			var newWindowWidth = $(window).width();
-            // If width width is below 600px, switch to the mobile stylesheet
-			 if(newWindowWidth < 600){ 				
-                $("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/mobile.css"});
-                 closePopup();
-                } 			
-                // Else if width is above 600px, switch to the large stylesheet 
-                else if(newWindowWidth > 600){
-				$("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/style.css"});
-			}
-		}    
+ 
     
     
 });
