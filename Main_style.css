@@ -198,6 +198,12 @@ ol , ul{
     padding-top:1px; 
     
     
+    
+}
+
+.new_Footer tr{
+    display:inline-grid;
+    height:20px;
 }
 
 .new_Footer td , tr{
@@ -351,7 +357,11 @@ ol , ul{
     
    
 
-} 
+}
+
+.downloadContainer img{
+    width:250px;
+}
 #contentIcon{
     
     width:100%;

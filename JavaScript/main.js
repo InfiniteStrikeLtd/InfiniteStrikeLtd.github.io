@@ -1,6 +1,8 @@
 // when the document (website) is ready run a unamed 
 $(document).ready(function () {
     
+   
+    
     
     $(window).bind("resize", resizeWindow);
 		function resizeWindow(e){
@@ -9,6 +11,10 @@ $(document).ready(function () {
 			 if(newWindowWidth < 600){ 				
                 
                  closePopup();
+                  $("#Nav_Menu a").css("font-size","24px");
+                  $("#Header_Logo_A").css("font-size","24px");
+                 $("#Header_Logo_A span").css("font-size","24px");
+                 $(".new_Footer a , p").css("font-size","8px");
                 } 			
         }   
     
@@ -19,8 +25,7 @@ $(document).ready(function () {
     })
     
   
-   
-   
+  
 
     
       $('.downloader').click(function(){
