@@ -7,17 +7,10 @@ $(document).ready(function () {
 			var newWindowWidth = $(window).width();
             // If width width is below 600px, switch to the mobile stylesheet
 			 if(newWindowWidth < 600){ 				
-                $("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/mobile.css"});
+                
                  closePopup();
                 } 			
-                // Else if width is above 600px, switch to the large stylesheet 
-                else if(newWindowWidth > 600){
-				$("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/style.css"});
-			    }else{
-                $("link[rel=stylesheet]").attr({href : "http://infinitestrikeltd.github.io/style.css"});
-                }
-            
-		}   
+        }   
     
     
     //when you click on IE_Close (The x) do the below
@@ -151,8 +144,9 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
     var messages = ["This is a Buffer and will never be shown",
                     "<h1>Social Media Person Needed! <a href = 'http://infinitestrikeltd.github.io/Contact.html'>Sign Up!</a></h1>", //0
                     "<h1>Welcome to Infinite Strike, this is the new home! we are now on git hub!</h1>",       //1
-                    "<h1>Follow us on social media!</h1>",
-                    "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>"];       //2
+                    "<h1>Follow us!</h1>",
+                    "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>",
+                    "<h1>$(document).ready(function(){ Party(); });</h1>"];       //2
                                                // So on and so forth
      
     var setRandomness = messages.length-1;
@@ -161,6 +155,7 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
      
      
     $('#message_holder').prepend(messages[randomChoice])
+     
     
  
  }   
