@@ -400,3 +400,18 @@ ol , ul{
 
 #message_holder a{color:#434343;font-family:Helvetica;font-size: 32px; }
 #message_holder a:hover{color:#a1a1a1;}
+
+#close-slider {
+    width:15px;
+    height:15px;
+    background:url("Img/closebutton_alt.png"); 
+    background-size:contain;
+    right:90%;
+    float:left;
+    opacity:0.2; 
+    
+}
+
+#close-slider:hover{
+    opacity:1; 
+}

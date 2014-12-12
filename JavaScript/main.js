@@ -171,7 +171,9 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
  setNewIntro();
     
     
- 
+ $("#close-slider").click(function(){
+    $("#sliderFrame").slideToggle();
+ })
     
     
 });

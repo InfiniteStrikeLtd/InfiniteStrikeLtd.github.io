@@ -173,6 +173,9 @@ div.tooltip:hover {
     text-decoration: none;
 }
 div.tooltip span {
+    position:fixed;
+    float:left;
+    top:0px;
     z-index: 10;
     display: none;
     padding: 14px 20px;
