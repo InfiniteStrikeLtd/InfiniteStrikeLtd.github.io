@@ -78,7 +78,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockq
  .wsite-product { border: 1px solid #d0d0d0; border-radius: 2px; background: inherit; box-shadow: none; }
  .wsite-product .wsite-product-title { font-family: 'Alice', sans-serif; color: white; font-size: 26px; }
  .wsite-product-image { border: 1px solid #d0d0d0; border-radius: 0; }
- .wsite-input, .wsite-form-input, select { border: solid 1px #d0d0d0; border-radius: 2px; margin: 8px 0; outline: none; background-image: none; height: 27px; font-size: 13px; w}
+ .wsite-input, .wsite-form-input, select { border: solid 1px #d0d0d0; border-radius: 5px; margin: 8px 0; outline: none; background-image: none; height: 27px; font-size: 13px; w}
+ .wsite-input, .wsite-form-input, select { border: solid 1px #d0d0d0; border-radius: 5px; margin: 8px 0; outline: none; background-image: none; height: 27px; font-size: 13px; w}
  .wsite-form-phone-separator { margin: 8px 0; }
  .wsite-form-label { font-weight: normal; }
  select { font-family: 'Open sans', sans-serif; -webkit-appearance: none; -moz-appearance: none; appearance: none; text-indent: .01px; text-overflow: ''; padding-left: 8px; padding-top: 2px; padding-bottom: 2px; background: url('theme/downarrow.png?1413559432') no-repeat 99% 9px; background-color: white; height: 27px; }

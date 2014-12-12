@@ -208,3 +208,10 @@ div.tooltip span {
     box-shadow: 0px 0px 8px 4px #666;
     opacity: 0.8;*/
 }
+#is-email-container {
+    width:auto;
+    height:auto;
+    background:#ddd;
+    background-image:url(Img/BlackDenimBack.jpg) 
+    border:1px solid rgba(0,0,0,0.3);
+}
