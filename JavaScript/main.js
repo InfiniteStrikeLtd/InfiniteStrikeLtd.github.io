@@ -151,7 +151,8 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
                     "<h1>Welcome to Infinite Strike, this is the new home! we are now on git hub!</h1>",       //1
                     "<h1>Follow us!</h1>",
                     "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>",
-                    "<h1>$(document).ready(function(){ Party(); });</h1>"];       //2
+                    "<h1>$(document).ready(function(){ Party(); });</h1>",
+                    "<h1>Error 200 - Found</h1>"];       //2
                                                // So on and so forth
      
     var setRandomness = messages.length-1;
