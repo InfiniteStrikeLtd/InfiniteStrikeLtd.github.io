@@ -121,6 +121,7 @@ h6 {
 #toggleButton:hover {
     background: #3498db;
     color: white;
+    box-shadow:#3498db 0px 0px 9px; 
 }
 /*----------------------------------------------------------*/
 

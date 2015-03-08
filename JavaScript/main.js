@@ -152,7 +152,11 @@ function m(e,t){return e+t&4294967295}var a="0123456789abcdef".split("");return 
                     "<h1>Follow us!</h1>",
                     "<h1 style = 'color:yellow;font-family:Minecraft;text-shadow:rgba(0,0,0,0.5) 0px 0px 7px;'>This is not Minecraft!!</h1>",
                     "<h1>$(document).ready(function(){ Party(); });</h1>",
-                    "<h1>Error 200 - Found</h1>"];       //2
+                    "<h1>Error 200 - Found</h1>",
+                    "<h1>That is a fine mustache you have there my good sir!</h1>",
+                    "<h1>Web designers? Who needs em.</h1>",
+                    "<h1>Keep this a secret but, i think the boss has an anime obsession.</h1>",
+                    "<h1>Its dangerous to go alone take <a target = '_blank' href = 'http://www.tshirtvortex.net/wp-content/uploads/Dangerous-Take-This-Sword-Link-Legend-of-Zelda-T-Shirt-sq.jpg'>this</a></h1>"];       //2
                                                // So on and so forth
      
     var setRandomness = messages.length-1;

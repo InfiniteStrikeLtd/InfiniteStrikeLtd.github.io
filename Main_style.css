@@ -123,13 +123,14 @@ ol , ul{
     font-size:68px; 
     color:#fff;
     font-family:LeagueGothic,Helvetica;
-    
+     text-shadow:rgba(0,0,0,0.5) 0px 0px 9px; 
 }
 
 #Header_Logo_B {
     font-size:38px;
     color:#fff;
     font-family:LeagueGothic,Helvetica;
+    text-shadow:rgba(0,0,0,0.5) 0px 0px 9px; 
     
 }
 #Nav_Menu {
@@ -137,7 +138,9 @@ ol , ul{
     color:#fff;
     font-size:38px;
     text-align:right;
-    background:rgba(0,0,0,0.5);
+    text-shadow:rgba(0,0,0,0.5) 0px 0px 9px; 
+    background:rgba(10,10,10,0.5);
+    box-shadow:rgba(0,0,0,0.5) 0px 0px 9px; 
 }
 #Nav_Menu a{
     margin-right:20px; 
@@ -350,7 +353,7 @@ ol , ul{
     height:400px;
     border-radius:3px;
     background:#fff;
-    box-shadow:rgba(0,0,0,0.5) 0px 0px 7px; 
+    box-shadow:rgba(0,0,0,0.5) 0px 0px 8px; 
     display:inline-block;
     vertical-align: middle;
     font-family:sans-serif;
