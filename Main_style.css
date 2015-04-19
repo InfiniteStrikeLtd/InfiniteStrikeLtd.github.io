@@ -41,6 +41,10 @@ a{
     text-decoration:none;
     color:#fff;
 }
+a:hover{
+    text-decoration:none;
+    color:#fff;
+}
 ol , ul{
     list-style:none;
     display:inline-block;
@@ -157,6 +161,10 @@ ol , ul{
 }
 #Nav_Menu a:hover{
     text-shadow:#fff 0px 0px 7px; 
+}
+
+#Nav_Menu ul,li{
+    display:inline; 
 }
 
 #search_box {
