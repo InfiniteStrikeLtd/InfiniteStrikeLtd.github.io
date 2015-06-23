@@ -431,3 +431,32 @@ ol , ul{
 #close-slider:hover{
     opacity:1; 
 }
+
+.cs_holder {
+    width:99%;
+    height:auto;
+    min-height:500;
+    border: 1px solid #999;
+    border-radius:15px; 
+}
+
+.cs_holder_header {
+    width:100%;
+    height:100px;
+    background-image:url("Img/quantum.png");
+    background-size:cover;
+    background-repeat:no-repeat; 
+    margin:0px;
+    padding-top:20px; 
+    border-top-left-radius:15px;  
+    border-top-right-radius:15px;
+    color:#fff;
+    font-family:FancyFont; 
+    font-size:28px;
+}
+
+.cs_holder_body {
+    width:100%;
+    height:400px;
+    display:inline-grid;
+}
