@@ -50,7 +50,7 @@ button{
 }
 
 .header .logo{
-    background:url("../IMG/logoLite.png"); 
+    background:url("../Img/logoLite.png"); 
     background-size:cover; 
     width:350px;
     height:55px;
@@ -92,7 +92,7 @@ button{
     min-height:600px;
     padding-top:1px;
     padding-bottom:1px;
-    background:url("../IMG/wood-bedroom-computer-desk.jpg");
+    background:url("../Img/wood-bedroom-computer-desk.jpg");
     background-size:cover; 
 }
 
@@ -145,7 +145,7 @@ button{
     height:64px;
     background:#555555;
     color:#ffffff;
-    background:url("../IMG/footer_lodyas.png");
+    background:url("../Img/footer_lodyas.png");
     background-size:cover; 
 }
 
@@ -348,7 +348,7 @@ button{
     float:left;
 }
 
-.containerImage img{
+.containerImage Img{
     border-radius:3px; 
 }
 
