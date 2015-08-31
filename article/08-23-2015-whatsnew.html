@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href = "../CSS/StrikeUI.css">
+        <link rel="stylesheet" href = "../Style.css">
+        <link rel ="icon" href = "../IMG/favicon.png">
+        <script src = "../JS/Jquery.js"></script>
+        <script src = "../JS/GameList.js"></script>
+        <script src = "../JS/Article.js"></script>
+        <script src = "../JS/InfiniteStrikelib.js"></script>
+        <script>
+            // replace the items under this comment to edit the article
+            var newsContextalt = {
+                author:   "@draven_lewis_is",
+                date:      "Sun Aug 23 02:11:56 CDT 2015", 
+                title:    "Infinte Strike Update", 
+                subtitle: "StrikeUI and More.",
+                content:  "Infinite Strike has updated! <br/>After a while being offline, or more like inactive, Inifinite Strike is back and better than ever. With a new UI System for a better look to more active ways of delivering articles and adding games to lists so that its easy for us, and easy for you.<br/> <div id = \"whatsnew\"> So lets look at some of the new things? <ol> <li>New UI</li> <li>New Infinite Strike Creators Program Coming Soon</li> <li>Secret stuff</li> </ol> </div>" 
+            };
+            // This function here will do all the work for you just generate the article and youre golden.
+            function showNews(){
+                $('#articleHeader-alt').prepend(newsContextalt.title);
+                //alert(newsContext.title);
+                $('#articleInfo-alt').prepend("By " + newsContextalt.author + " on " + newsContextalt.date);
+                //alert("By " + newsContext.author + " on " + newsContext.date);
+                $('#articleSubHeader-alt').prepend(newsContextalt.subtitle);
+                //alert(newsContext.subtitle);
+                $('#articleContent-alt').prepend(newsContextalt.content);
+                //alert(newsContext.content);
+                
+                // {!} this code is just for articles.
+                $('#heading').prepend(newsContextalt.title);
+                $('#subheading').prepend(newsContextalt.subtitle);
+                $('#microtext').prepend("By " + newsContextalt.author + " on " + newsContextalt.date);
+                
+            }
+        </script>
+        <title>Infinite Strike</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "logo"></div>
+            <div class = "navagation">
+                <ul>
+                    <li><a href = "http://infinitestrikeltd.github.io">Home</a></li>
+                    <li><a href = "http://infinitestrikeltd.github.io/contact.html">Contact</a></li>
+                    <li><a href = "http://infinitestrikeltd.github.io/games.html">Games</a></li>
+                    <li><a href = "http://infinitestrikeltd.github.io/about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "content">
+            <div class = "contentContainer">
+                <div class = "genericContentContainer">
+                    <div class= "jumbotron">
+                        <h2 id = "heading"></h2>
+                        <h2 id = "subheading"></h2>
+                        <p id  = "microtext"></p>
+                    </div>
+                    <div class = "article-alt" style = "text-align:left;">
+                        <h1 id = "articleHeader-alt"></h1>
+                        <h2 id = "articleSubHeader-alt"></h2>
+                        <h5 id = "articleInfo-alt"></h5>
+                        <p id = "articleContent-alt"></p>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            
+        </div>
+    </body>
+</html>

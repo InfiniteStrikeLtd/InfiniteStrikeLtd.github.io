@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href = "../CSS/StrikeUI.css">
+        <link rel="stylesheet" href = "../Style.css">
+        <link rel ="icon" href = "../IMG/favicon.png">
+        <script src = "../JS/Jquery.js"></script>
+        <script src = "../JS/GameList.js"></script>
+        <script src = "../JS/Article.js"></script>
+        <script src = "../JS/InfiniteStrikelib.js"></script>
+        <script>
+            // replace the items under this comment to edit the article
+            var newsContextalt = {
+                author:    "Draven Lewis @draven_lewis_is",
+                date:     "Fri Jul 31 22:48:11 CDT 2015", 
+                title:    "StrikeUI Update and Tonnes more!", 
+                subtitle: "",
+                content:  "After a long hiatis infinite strike is back and better than ever with the new StrikUI system inspired by bootstrap; but the cool thing is <strong>no bootstrap libraries were used.</strong> so that means that this is all our stuff and it looks SOO cool and we welcome you back to infinite strike and the new Strike UI" 
+            };
+            // This function here will do all the work for you just generate the article and youre golden.
+            function showNews(){
+                $('#articleHeader-alt').prepend(newsContextalt.title);
+                //alert(newsContext.title);
+                $('#articleInfo-alt').prepend("By " + newsContextalt.author + " on " + newsContextalt.date);
+                //alert("By " + newsContext.author + " on " + newsContext.date);
+                $('#articleSubHeader-alt').prepend(newsContextalt.subtitle);
+                //alert(newsContext.subtitle);
+                $('#articleContent-alt').prepend(newsContextalt.content);
+                //alert(newsContext.content);
+                
+                // {!} this code is just for articles.
+                $('#heading').prepend(newsContextalt.title);
+                $('#subheading').prepend(newsContextalt.subtitle);
+                $('#microtext').prepend("By " + newsContextalt.author + " on " + newsContextalt.date);
+                
+            }
+        </script>
+        <title>Infinite Strike</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "logo"></div>
+            <div class = "navagation">
+                <ul>
+                    <li><a href = "infinitestrikeltd.github.io">Home</a></li>
+                    <li><a href = "contact.html" id = "active">Contact</a></li>
+                    <li><a href = "games.html">Games</a></li>
+                    <li><a href = "about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "content">
+            <div class = "contentContainer">
+                <div class = "genericContentContainer">
+                    <div class= "jumbotron">
+                        <h2 id = "heading"></h2>
+                        <h2 id = "subheading"></h2>
+                        <p id  = "microtext"></p>
+                    </div>
+                    <div class = "article-alt" style = "text-align:left;">
+                        <h1 id = "articleHeader-alt"></h1>
+                        <h2 id = "articleSubHeader-alt"></h2>
+                        <h5 id = "articleInfo-alt"></h5>
+                        <p id = "articleContent-alt"></p>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            
+        </div>
+    </body>
+</html>

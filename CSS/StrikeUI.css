@@ -1,0 +1,465 @@
+/* 
+    Created on : Jul 29, 2015, 11:47:40 PM
+    Author     : draven
+*/
+
+@font-face{
+    font-family: LeagueGothic;
+    src: url("../FONT/LeagueGothic.otf");
+}
+
+
+body{padding: 0px; margin: 0px; word-wrap: break-word;font-family:Arial; }
+
+
+a {
+    text-decoration:none;
+    color:#3498db;
+}
+
+a:hover{
+    color:#56bafd;
+}
+
+hr{
+    border:none;
+    border-bottom:1px solid #888888;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:88%;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+button{
+    margin:3px;
+    width:150px;
+    height:50px;
+    border:1px solid #8a44ad;
+    border-radius:3px; 
+    background:#8e44ad;
+    color:#ffffff;
+}
+
+.header { 
+    width:100%;
+    min-height:64px;
+    height:auto;
+    margin:0px;
+    background:#000;
+}
+
+.header .logo{
+    background:url("../IMG/logoLite.png"); 
+    background-size:cover; 
+    width:350px;
+    height:55px;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.header .navagation{
+    position:absolute;
+    top:-15px;
+    right:10px;
+    color:white;
+    font-family:LeagueGothic;
+    font-size:30px;
+}
+
+.navagation ul{
+    list-style:none; 
+}
+
+.navagation li{
+    display:inline;
+    margin-left:10px;
+}
+
+.navagation li:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.navagation a{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+.content {
+    width:100%;
+    height:auto;
+    min-height:600px;
+    padding-top:1px;
+    padding-bottom:1px;
+    background:url("../IMG/wood-bedroom-computer-desk.jpg");
+    background-size:cover; 
+}
+
+.contentContainer {
+    width:88%;
+    height:auto;
+    min-height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    background:#ffffff; 
+    margin-top:30px;
+    margin-bottom:30px; 
+    border-radius:3px; 
+}
+
+.contentContainer h1{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+}
+.contentContainer h2{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+}
+.contentContainer h3{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+}
+.contentContainer h4{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+}
+.contentContainer h5{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+}
+.contentContainer h6{
+    font-family:Arial;
+    margin:5px;
+    margin-left:20px;
+    
+}
+
+.footer {
+    width:100%;
+    height:64px;
+    background:#555555;
+    color:#ffffff;
+    background:url("../IMG/footer_lodyas.png");
+    background-size:cover; 
+}
+
+#redButton {
+    margin:3px;
+    width:150px;
+    height:50px;
+    border:1px solid #da2522;
+    border-radius:3px; 
+    background:#df2522;
+    color:#ffffff;
+}
+#greenButton {
+    margin:3px;
+    width:150px;
+    height:50px;
+    border:1px solid #20df5d;
+    border-radius:3px; 
+    background:#22df5d;
+    color:#ffffff;
+}
+#blueButton {
+    margin:3px;
+    width:150px;
+    height:50px;
+    border:1px solid #206fdf;
+    border-radius:3px; 
+    background:#226fdf;
+    color:#ffffff;
+}
+#linedButton {
+    margin:3px;
+    width:150px;
+    height:50px;
+    border: 2px solid #FFF;
+    border-radius:3px; 
+    background:rgba(0,0,0,0);
+    color:#ffffff;
+}
+#linedButton:hover{
+    background: rgba(255,255,255,255);
+    color:#000000;
+}
+
+#invLinedButton {
+    margin:3px;
+    width:150px;
+    height:50px;
+    border: 2px solid #000;
+    border-radius:3px; 
+    background:rgba(0,0,0,0);
+    color:#000000;
+}
+#invLinedButton:hover{
+    background: rgba(0,0,0,255);
+    color:#ffffff;
+}
+
+.navagation #active{
+    border-bottom: 2px solid #8e44ad;
+}
+
+.jumbotron{
+    width:100%;
+    height:300px;
+    background:#eee;
+    background-size:cover !important; 
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:10px; 
+    padding-bottom:10px; 
+}
+
+.jumbotron #microtext{
+    font-size:12px; 
+    font-family:Arial;
+    font-style:italic; 
+    color:#ffffff;
+    text-shadow:rgba(0,0,0,0.7) 0px 2px 1px; 
+}
+
+.jumbotron #heading{
+    font-size:48px; 
+    font-family:Arial;
+    color:#ffffff;
+    padding-top:70px; 
+    text-shadow:rgba(0,0,0,0.7) 0px 2px 1px; 
+}
+
+.jumbotron #subheading{
+    font-size:24px; 
+    font-family:Arial;
+    font-style:italic; 
+    color:#ffffff;
+    text-shadow:rgba(0,0,0,0.7) 0px 2px 1px; 
+}
+
+.jumbotron button{
+    margin-left:20px !important; 
+}
+
+.article{
+    width:98%;
+    height:auto;
+    min-height:100px;
+    background:#eeeeee;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.article #articleHeader{
+    font-size:36px; 
+    font-family:Arial;
+    color:#000000;
+    padding-top:10px;  
+}
+
+.article #articleSubHeader{
+    font-size:24px; 
+    font-family:Arial;
+    font-style:italic; 
+    color:#000000;
+}
+
+.article #articleContent{
+    font-size:12px; 
+    font-family:Arial; 
+    color:#000000;
+    margin-left:2%;
+    margin-bottom:10px; 
+}
+
+.article #articleInfo{
+    font-size:10px;
+    font-family:Arial;
+    color:#444444;
+}
+
+.article-alt{
+    width:98%;
+    height:auto;
+    min-height:100px;
+    background:#eeeeee;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.article-alt #articleHeader-alt{
+    font-size:36px; 
+    font-family:Arial;
+    color:#000000;
+    padding-top:10px;  
+}
+
+.article-alt #articleSubHeader-alt{
+    font-size:24px; 
+    font-family:Arial;
+    font-style:italic; 
+    color:#000000;
+}
+
+.article-alt #articleContent-alt{
+    font-size:12px; 
+    font-family:Arial; 
+    color:#000000;
+    margin-left:2%;
+    margin-bottom:10px; 
+}
+
+.article-alt #articleInfo-alt{
+    font-size:10px;
+    font-family:Arial;
+    color:#444444;
+}
+
+.listItemContainer{
+    width: 200px;
+    height:300px;
+    display:inline-block;
+    margin:30px; 
+    background:#ffffff;
+    border-radius:1px;
+    border:1px solid #eeeeee;
+    box-shadow:rgba(0,0,0,0.5) 0px 0px 5px; 
+}
+
+.listItemContainer:hover{
+    background:#eeeeee;
+}
+
+
+.listItemContainer .containerImage{
+    width:100%;
+    height:50px;
+    background-image:linear-gradient(#ffffff,#eeeeee); 
+    float:left;
+}
+
+.containerImage img{
+    border-radius:3px; 
+}
+
+.listItemContainer .containerInfo{
+    width:100%;
+    height:200px;
+    float:right;
+}
+
+.containerInfo p{
+    margin-left:20px; 
+}
+
+.downloadInfo{
+    width:100%;
+    height:50px;
+    background-color:#3498db;
+    text-align:center;
+}
+
+
+
+.listItemContainer a{
+    margin-top:auto;
+    margin-bottom:auto;
+    text-decoration:none;
+    font-family:Arial; 
+    color:#3498db;
+}
+
+.genericContentContainer{
+    width:100%;
+    height:auto;
+    min-height:500px;
+    background:#ffffff;
+    color:#000000;
+    font-weight:100;
+    text-align:center;
+    border-radius:5px;
+    padding-top:1px;
+    box-shadow:rgba(0,0,0,0.7) 0px 0px 7px;
+}
+
+#normalMessage{
+    margin-top:5px;
+    margin-bottom:5px;
+    width:95%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background:#e29dff; 
+    border:1px solid #bd1eff;
+    border-radius:3px; 
+    color:#ffffff;
+    font-family:Arial; 
+}
+
+#normalMessage p{
+    margin-left:10px; 
+}
+
+#errorMessage{
+    margin-top:5px;
+    margin-bottom:5px;
+    width:95%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background:#ff8b8b; 
+    border:1px solid #ff3939;
+    border-radius:3px; 
+    color:#ffffff;
+    font-family:Arial; 
+}
+
+#errorMessage p{
+    margin-left:10px; 
+}
+
+#warningMessage{
+    margin-top:5px;
+    margin-bottom:5px;
+    width:95%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background:#fff674; 
+    border:1px solid #fff134;
+    border-radius:3px; 
+    color:#ffffff;
+    font-family:Arial; 
+}
+
+#warningMessage p{
+    margin-left:10px; 
+}
+
+#successMessage{
+    margin-top:5px;
+    margin-bottom:5px;
+    width:95%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background:#2ecc71; 
+    border:1px solid #27ae60;
+    border-radius:3px; 
+    color:#ffffff;
+    font-family:Arial; 
+}
+
+#successMessage p{
+    margin-left:10px; 
+}
