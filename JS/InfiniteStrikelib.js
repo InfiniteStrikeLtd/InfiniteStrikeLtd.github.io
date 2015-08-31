@@ -8,8 +8,8 @@
 var footerList = [
     new ListItem("Home","http://infinitestrikeltd.github.io"), 
     new ListItem("Games","http://infinitestrikeltd.github.io/games"),
-    new ListItem("Contact","http://infinitestrikeltd.github.io/contact"),
-    new ListItem("About","http://infinitestrikeltd.github.io/about"),
+    new ListItem("Contact","http://infinitestrikeltd.github.io/Contact"),
+    new ListItem("About","http://infinitestrikeltd.github.io/About"),
 ];
 
 $(document).ready(main);
