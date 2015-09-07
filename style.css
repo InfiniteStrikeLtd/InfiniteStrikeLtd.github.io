@@ -102,3 +102,76 @@ body{
 	padding-bottom:64px; /* Height of the footer element */
 	background:url("Img/color6.png");
 }
+
+#whoami{
+    width:100%;
+    height:auto;
+    min-height:400px;
+    background:#e0e0e0;
+    padding-top:1px;
+}
+
+#whoami ol{
+    list-style:none; 
+    padding-top:auto;
+    padding-bottom:auto; 
+}
+
+#whoami li{
+    margin:10px;
+}
+
+#whoami-item{
+    width:95%;
+    max-height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#ffffff;
+    border-radius:3px;
+    padding-top:1px; 
+}
+
+#whoami-item #text-wrap{
+    width:75%;
+    height:96px;
+    position:relative;
+    top:-100px;
+    left:150px;
+}
+
+.whoami-artifact{
+    width:96px;
+    height:96px;
+    border-radius:50%;
+    border:2px solid #3498db;
+    display:inline-block; 
+    position:relative; 
+    margin:0px;
+}
+
+#info1{
+    width:96px;
+    height:96px;
+    background:url("Img/svg/happy5.svg");
+    background-repeat:no-repeat;  
+    background-position:center; 
+    background-size: 75% 75%;
+}
+
+#info2{
+    width:96px;
+    height:96px;
+    background:url("Img/svg/check84.svg");
+    background-repeat:no-repeat;  
+    background-position:center; 
+    background-size: 75% 75%;
+}
+
+#info3{
+    width:96px;
+    height:96px;
+    background:url("Img/svg/messages5.svg");
+    background-repeat:no-repeat;  
+    background-position:center; 
+    background-size: 75% 75%;
+}
