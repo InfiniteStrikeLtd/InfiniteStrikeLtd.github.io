@@ -148,6 +148,7 @@ body{
     display:inline-block; 
     position:relative; 
     margin:0px;
+    z-index:2; 
 }
 
 #info1{
