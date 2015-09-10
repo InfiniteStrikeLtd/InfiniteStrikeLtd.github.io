@@ -159,6 +159,10 @@ body{
     background-size: 75% 75%;
 }
 
+#info1:hover{
+    background:#3498db; 
+}
+
 #info2{
     width:96px;
     height:96px;
@@ -168,6 +172,11 @@ body{
     background-size: 75% 75%;
 }
 
+#info2:hover{
+    background:#3498db; 
+}
+
+
 #info3{
     width:96px;
     height:96px;
@@ -175,4 +184,8 @@ body{
     background-repeat:no-repeat;  
     background-position:center; 
     background-size: 75% 75%;
+}
+
+#info3:hover{
+    background:#3498db; 
 }
