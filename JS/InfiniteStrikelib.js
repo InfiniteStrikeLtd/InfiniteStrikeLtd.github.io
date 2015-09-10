@@ -9,7 +9,7 @@ var footerList = [
     new ListItem("Home","http://infinitestrikeltd.github.io"), 
     new ListItem("Games","http://infinitestrikeltd.github.io/games"),
     new ListItem("Contact","http://infinitestrikeltd.github.io/Contact"),
-    new ListItem("About","http://infinitestrikeltd.github.io/About"),
+    new ListItem("About","http://infinitestrikeltd.github.io/About")
 ];
 
 $(document).ready(main);
@@ -24,7 +24,7 @@ function main(){
     generateRandom();
     upDateGame();
     showNews();
-    
+     
     // Set up the footer
     $('.footer').append('<div class = "linkContainer"></div>');
     for(i = 0; i < footerList.length; i++){
@@ -82,16 +82,38 @@ function ListItem(name , link){
 
 function upDateGame(){
     for(i = 0; i < games.length; i++){
+		
+		if(games[i].img == null){
+			$('.content').prepend("<div id = \"errorMessage\"><p>Image property for item at index "+i+" does not exist.</p></div>");
+		}
+		if(games[i].marquee == null){
+			$('.content').prepend("<div id = \"errorMessage\"><p>Marguee property for item at index "+i+" does not exist.</p></div>");
+		}
+		if(games[i].name == null){
+			$('.content').prepend("<div id = \"errorMessage\"><p>Name property for item at index "+i+" does not exist.</p></div>");
+		}
+		if(games[i].desc == null){
+			$('.content').prepend("<div id = \"errorMessage\"><p>Description property for item at index "+i+" does not exist.</p></div>");
+		}
+		if(games[i].link == null){
+			$('.content').prepend("<div id = \"errorMessage\"><p>Link property for item at index "+i+" does not exist.</p></div>");
+		}
+		
         if(games[i] === null){
             $('.content').prepend("<div id = \"errorMessage\"><p>Cannot Find file at Index: "+i+"</p></div>");
         }else{
-            $('.gamesContainer').prepend("<div class = \"listItemContainer\"><div class = \"containerImage\"><img src =\""+games[i].img+"\" width = \"50px\" height = \"50px\"/></div><div class = \"containerInfo\"><h4>"+games[i].name+"</h4><p>"+games[i].desc+"</p></div><div class = \"downloadInfo\"><a href = \""+games[i].link+"\">Download "+games[i].name+"</a></div></div>");
+            $('.gamesContainer').prepend("<div class = \"listItemContainer\"><div class = \"containerImage\">"+
+			                             "<img src =\""+games[i].img+"\" width = \"50px\" height = \"50px\"/>"+
+										 "</div><div class = \"containerInfo\"><h4>"+games[i].name+"</h4><hr/>"+
+										 "<img id = \"gameMarquee\"src =\""+games[i].marquee+"\" width = \"200\" />"+
+										 "<p>"+games[i].desc+"</p></div>"+
+										 "<div class = \"downloadInfo\"><a href = \""+
+										 games[i].link+"\">Download "+
+										 games[i].name+"</a></div></div>");
         }
     }
      if(games.length === 0){
             $('.gamesContainer').prepend("<h3 style = \"color: #999999;\">No Games to show at this time! :/</h3><br/><br/>");
      }
 }
- 
-
 
