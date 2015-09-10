@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: LeagueGothic;
-    src: url("../FONT/LeagueGothic.otf");
+    src: url('../FONT/LeagueGothic.otf') format('opentype');
 }
 
 
@@ -51,7 +51,8 @@ button{
 
 .header .logo{
     background:url("../Img/logoLite.png"); 
-    background-size:cover; 
+    background-size:contain;
+    background-repeat:no-repeat; 
     width:350px;
     height:55px;
     position:absolute;
