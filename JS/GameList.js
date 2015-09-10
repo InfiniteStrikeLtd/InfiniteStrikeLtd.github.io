@@ -1,2 +1,13 @@
 
-var games = [];
+var TestGame = {
+    img: "",
+    name: "",
+    desc: "",
+    link: "",
+    marquee: ""
+};
+
+
+
+
+var games = [TestGame,TestGame];

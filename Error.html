@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href = "CSS/StrikeUI.css">
+        <link rel="stylesheet" href = "style.css">
+        <link rel ="icon" href = "Img/Favicon.png">
+        <script src = "JS/Jquery.js"></script>
+        <script src = "JS/GameList.js"></script>
+        <script src = "JS/Article.js"></script>
+        <script src = "JS/InfiniteStrikelib.js"></script>
+        <title>Infinite Strike - Error</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56259696-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "logo" style = "width:100%;"></div>
+        </div>
+        <div class = "content">
+            <div class = "contentContainer">
+                <div class = "genericContentContainer">
+                    <script>
+                        var url = window.location.href;
+                        var params = url.split('?');
+                        switch(params[1]){
+                            case "errType=IEError":
+                                $('.genericContentContainer').prepend("<h1>Internet Explorer is a no.</h1><hr/><br/><br/><p>Sorry for the inconvinence. But our site does not support IE. Please Upgrade your browser to Chrome or Firefox..</p>");
+                                break;
+                            default:
+                                $('.genericContentContainer').prepend("<h1>This is embarrassing. :/ </h1><hr/><br/><br/><p>You were sent here with no error :/ Click <a href = \"http://infinitestrikeltd.github.io\">here</a> to return to the main page.</p>");
+                                break;
+                        }
+                    </script>
+                    <div class = "errorPageContainer"></div>
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            
+        </div>
+    </body>
+</html>

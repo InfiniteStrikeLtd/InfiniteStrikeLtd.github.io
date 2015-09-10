@@ -68,7 +68,7 @@ body{
 .footer a{
     margin-right:10px; 
     color:#ffffff;
-    font-family:LeagueGothic;
+    font-family:LeagueGothic,Arial;
     font-size:48px;
 }
 
@@ -90,11 +90,12 @@ body{
     position:absolute;
     left:70px;
     margin-top:5px;
+    font-family:LeagueGothic,Arial;
 }
 
 .footer{
 	width:100%;
-	height:64px;
+	height:64px; 
 }
 
 
