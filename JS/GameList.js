@@ -10,4 +10,4 @@ var TestGame = {
 
 
 
-var games = [TestGame,TestGame];
+var games = [];
