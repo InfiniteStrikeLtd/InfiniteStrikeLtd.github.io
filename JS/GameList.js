@@ -9,7 +9,7 @@ var TestGame = {
 
 
 var PyroCat2 = {
-    img: "IMG/GameIcons/PyroCatInfinite.png",
+    img: "Img/GameIcons/PyroCatInfinite.png",
     name: "PyroCat: Infinite",
     desc: "<a href = \"http://gamejolt.com/games/pyro-cat-infinite/40535 \">Learn More</a>",
     link: "http://gamejolt.com/games/pyro-cat-infinite/40535/download/build/169856",
