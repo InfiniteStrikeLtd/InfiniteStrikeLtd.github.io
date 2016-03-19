@@ -2,8 +2,11 @@
   // Generated on Fri Jul 31 22:48:11 CDT 2015 
  var newsContext = {
  author:    "Draven Lewis @draven_lewis_is",
- date:     "Fri Jul 31 22:48:11 CDT 2015", 
- title:    "StrikeUI Update and Tonnes more!", 
+ date:     "Sat Mar 19 14:06:37 CDT 2016", 
+ title:    "Infinite Strike uptated and adding more Staff.", 
  subtitle: "",
- content:  "After a long time off, Infinite Strike is back and better than ever with the new StrikeUI system inspired by bootstrap; but the cool thing is <strong>no bootstrap libraries were used.</strong> so that means that this is all our stuff and it looks SOO cool. We welcome you back to infinite strike and the new Strike UI" 
+ content:  "After nearly a year of being a static website, Infinite Strike has recieved"+
+           "an update. Along with that we have added 2 new members other than Max,"+
+           "Butter, and myself. Welcome Josh and Jon to the site. You can talk and"+
+           "interact with them on the Facebook page. <a href = \"https://www.facebook.com/OfficialInfiniteStrike\"></a>" 
  };

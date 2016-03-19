@@ -9,8 +9,10 @@ body{
 }
 
 .jumbotron{
-    background:url("Img/headerhd.jpg");
+    background:url("Img/Cover.png");
+    background-position:center;
 }
+
 
 .twitterHolder{
     position:fixed;
@@ -100,84 +102,50 @@ body{
 
 
 .content {
-	padding-bottom:64px; /* Height of the footer element */
+	/* padding-bottom:64px; /* Height of the footer element */
 	background:url("Img/color6.png");
 }
 
-#whoami{
+#caption{
+    position:relative;
+    top:90px; 
+}
+
+#mainContent{
     width:100%;
+    padding-bottom:40px;
+}
+
+#whoami{
+    width:98%;
     height:auto;
     min-height:400px;
-    background:#e0e0e0;
+    background:#000000;
     padding-top:1px;
+    margin-left:10px; 
+    margin-right:10px;
+    color:#00FF00;
+    font-family:Ubuntu,Lucida Console,monospace;
 }
 
-#whoami ol{
-    list-style:none; 
-    padding-top:auto;
-    padding-bottom:auto; 
+#whoami #banner{
+    width:100%;
+    height:48px;
+    background:#333; 
+    padding-top:5px;
 }
 
-#whoami li{
-    margin:10px;
+#banner p{
+    margin-top:15px;
+    color:#a3a3a3;
 }
 
-#whoami-item{
-    width:95%;
-    max-height:100px;
-    margin-left:auto;
-    margin-right:auto;
-    background:#ffffff;
-    border-radius:3px;
-    padding-top:1px; 
-}
-
-#whoami-item #text-wrap{
-    width:75%;
-    height:96px;
-    position:relative;
-    top:-100px;
-    left:150px;
-}
-
-.whoami-artifact{
-    width:96px;
-    height:96px;
-    border-radius:50%;
-    border:2px solid #3498db;
-    display:inline-block; 
-    position:relative; 
-    margin:0px;
-    z-index:2; 
-}
-
-#info1{
-    width:96px;
-    height:96px;
-    background:url("Img/svg/happy5.svg");
-    background-repeat:no-repeat;  
-    background-position:center; 
-    background-size: 75% 75%;
-}
-
-#info2{
-    width:96px;
-    height:96px;
-    background:url("Img/svg/check84.svg");
-    background-repeat:no-repeat;  
-    background-position:center; 
-    background-size: 75% 75%;
+#whoami p{
+    margin-left:10px;
 }
 
 
 
-
-#info3{
-    width:96px;
-    height:96px;
-    background:url("Img/svg/messages5.svg");
-    background-repeat:no-repeat;  
-    background-position:center; 
-    background-size: 75% 75%;
+#articleContent{
+    font-size:38px;
 }
-
