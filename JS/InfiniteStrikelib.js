@@ -14,13 +14,23 @@ var footerList = [
 
 $(document).ready(main);
 
+function showSurvey(){
+	var code = "<div><style>body{margin:0px;padding:0px:}.survey{z-index:999;width:100%;height:64px;background:rgba(55,55,55,0.7);position:fixed;top:90%;"+
+"left:0px;color:#CCCCCC;font-family:Arial;display:inline;}.survey p{margin-top:25px;margin-left:20px;}.close-survey{position:relative;"+
+"left:98%;top:-70px;}.take-survey{width:100px;height:32px;position:relative;top:-42px;left:74%;}</style><script>$('.close-survey').click(function(){"+
+"$(this).hide();});</script><div class = \"survey\"><p>Welcome to Infinite Strike! We would like to ask you some questions based on your experence" +
+" if that is ok.</p><button class = \"take-survey\">Take Survey</button><div class = \"close-survey\">X</div></div></div>"
+
+	$('.content').append(code);
+}
 
 function main(){
     // Initial values
     var openerActivated = false;
     
     $('.content').append("<div class = \"twitterHolder\"><a class=\"twitter-timeline\"href=\"https://twitter.com/Infinite_Strike/lists/infinite-strike-members\"data-widget-id=\"626597129545453568\">Twitter Was Unable to load! Check your internet or proxy settings or click this message to go to the feed</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\"); </script></div><div class = \"twitterOpener\"></div>");
-    
+	
+	
     generateRandom();
     upDateGame();
     showNews();
