@@ -38,6 +38,7 @@ function main(){
     generateRandom();
     upDateGame();
     showNews();
+    showSurvey();
      
      
     
