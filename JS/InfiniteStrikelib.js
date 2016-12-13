@@ -87,7 +87,6 @@ if(getInternetExplorerVersion() !== -1){
                 break;
         }
     });
-}
 
 function generateRandom(){
     var randomMessages = ["MissingNO.",
