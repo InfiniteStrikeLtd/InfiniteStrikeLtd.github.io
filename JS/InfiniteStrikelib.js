@@ -37,11 +37,8 @@ function main(){
 	
     generateRandom();
     upDateGame();
-    showNews();
-    showSurvey();
-     
-     
-    
+    showNews(); 
+}    
   function getInternetExplorerVersion(){
   var rv = -1;
   if (navigator.appName == 'Microsoft Internet Explorer')
