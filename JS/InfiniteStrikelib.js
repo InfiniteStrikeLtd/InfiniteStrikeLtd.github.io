@@ -153,5 +153,5 @@ function upDateGame(){
      if(games.length === 0){
             $('.gamesContainer').prepend("<h3 style = \"color: #999999;\">No Games to show at this time! :/</h3><br/><br/>");
      }
-}
+}};
 
